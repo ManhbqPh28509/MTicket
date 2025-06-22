@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:layout_height="match_parent"
+    tools:context=".fragments_users.HomeFragment">
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Welcome, "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:textColor="#E50B14"
+            android:text="Hoang"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="351dp"
+        android:layout_height="234dp"
+        app:cardCornerRadius="30dp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/circle3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        app:ci_drawable="@drawable/bg_indicator3" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPhim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

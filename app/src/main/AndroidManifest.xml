@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MTicket"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.Purchase"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ChooseCinema"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Category"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ChooseSeat"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ReviewMovie"
+            android:exported="false" />
+        <activity
+            android:name=".ui_manager.SeatManagement"
+            android:exported="false" />
+        <activity
+            android:name=".ui_manager.UserInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ui_manager.Administration"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FilmInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Register"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Login"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Home"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

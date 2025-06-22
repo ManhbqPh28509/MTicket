@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_users"
+            android:title="Quản lý người dùng" />
+        <item
+            android:id="@+id/nav_booking"
+            android:title="Quản lý vé" />
+        <item
+            android:id="@+id/nav_movies"
+            android:title="Quản lý phim" />
+        <item
+            android:id="@+id/nav_categories"
+            android:title="Quản lý thể loại" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="Quản lý lịch chiếu" />
+        <item
+            android:id="@+id/nav_cinemas"
+            android:title="Quản lý rạp" />
+        <item
+            android:id="@+id/nav_room"
+            android:title="Quản lý phòng chiếu" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Đăng xuất" />
+    </group>
+</menu>

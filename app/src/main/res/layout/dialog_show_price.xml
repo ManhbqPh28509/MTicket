@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Đặt vé"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/edtMovie_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_layout_spinner"
+        android:gravity="center|start"
+        android:hint="Tên phim:"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edtCinema_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_layout_spinner"
+        android:gravity="center|start"
+        android:hint="Tên rạp:"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edtRoom_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_layout_spinner"
+        android:gravity="center|start"
+        android:hint="Tên phòng:"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edtSeat_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_layout_spinner"
+        android:gravity="center|start"
+        android:hint="Vị trí ghế:"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_layout_spinner"
+        android:gravity="center|start"
+        android:hint="Giá:"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp" />
+</LinearLayout>

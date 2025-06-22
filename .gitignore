@@ -1,0 +1,78 @@
+# -------- Android/Gradle --------
+# Gradle wrapper và thư mục cache
+.gradle/
+caches/
+
+# Thư mục build của module/app
+**/build/
+
+# Thư mục Captures (Android Studio screen capture)
+captures/
+
+# Thư mục NDK và external native build
+.externalNativeBuild/
+obj/
+
+# Local SDK/NDK config (không commit file này)
+local.properties
+
+# Keystore (nếu lưu file keystore trong repo)
+*.jks
+*.keystore
+
+# -------- IDE / Editor --------
+# IntelliJ IDEA / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.metadata/
+*.classpath
+*.project
+.settings/
+
+# -------- Logs --------
+*.log
+
+# -------- Binary / Generated --------
+# Ứng dụng đầu ra
+*.apk
+*.ap_
+*.aab
+*.jar
+*.war
+
+# -------- OS Files --------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# -------- Misc --------
+# Tạm thời, lock files
+*.lock
+
+# Yarn / Node (nếu có dùng trong repo)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+.pnpmfile.cjs
+
+# Bỏ qua file zip/tar auto-generated
+*.zip
+*.tar.gz
+*.tgz
+*.gz
